@@ -1,6 +1,6 @@
 const path = require('path')
 // const webpack = require('webpack')
-
+context = __dirname
 module.exports = {
     mode: 'production',
     entry: './src/index.ts',
